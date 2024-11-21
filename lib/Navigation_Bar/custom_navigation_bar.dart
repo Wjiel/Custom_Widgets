@@ -9,7 +9,7 @@ class CustomNavigationBar extends StatefulWidget {
 }
 
 final ScrollController scrollController = ScrollController();
-PageController pageController = PageController();
+final PageController pageController = PageController();
 
 class _CustomNavigationBarState extends State<CustomNavigationBar> {
   final Color selectedColor = Colors.pink;
